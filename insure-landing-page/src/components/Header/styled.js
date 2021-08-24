@@ -1,9 +1,11 @@
 import styled from 'styled-components'
+import colors from '../../colors'
+
 
 export const Wrapper = styled.header`
-    background-color: aqua;
-    padding: 20px 10px;
+    background-color: ${colors.veryLightGray};
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 20px 10%;
 `

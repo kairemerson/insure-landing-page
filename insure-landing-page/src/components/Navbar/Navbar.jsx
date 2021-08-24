@@ -1,5 +1,6 @@
 import React from "react";
 import { WrapperNav } from "./styled";
+import Button from "../Button/Button";
 
 function Navbar(){
     return(
@@ -9,7 +10,7 @@ function Navbar(){
                 <li>BLOG</li>
                 <li>ACCOUNT</li>
             </ul>
-            <button>teste</button>
+            <Button>VIEW PLANS</Button>
         </WrapperNav>
     )
 }
