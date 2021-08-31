@@ -1,8 +1,10 @@
 import React from "react"
-import { Section } from "./styled"
+import { Section, ImageRight, ImageLeft} from "./styled"
 import {WButton} from "../Button/styled"
 import {Container} from "../../container/Container"
 import intro from "../../assets/images/image-intro-desktop.jpg"
+import introRight from "../../assets/images/bg-pattern-intro-right-desktop.svg"
+import introLeft from "../../assets/images/bg-pattern-intro-left-desktop.svg"
 
 
 function Brief(){
@@ -16,7 +18,9 @@ function Brief(){
                     <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help your find the plan that's right for you. Ensure you and your loved ones are protected.</p>
                     <WButton>VIEW PLANS</WButton>
                 </div>
-                <img src={intro} alt="family" />
+                <img className="family" src={intro} alt="family" />
+                <ImageRight src={introRight}/>
+                <ImageLeft src={introLeft}/>
             </Container>
         </Section>
 

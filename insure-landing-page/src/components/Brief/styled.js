@@ -6,6 +6,7 @@ export const Section = styled.section`
     color: white;
     padding-top: 8%;
     padding-bottom: 8%;
+    position: relative;
     div.line{
         width: 16%;
         border-top: 1px solid ${colors.veryLightGray};
@@ -15,9 +16,9 @@ export const Section = styled.section`
     div{
         width: 63%;
     }
-    img{
+    img.family{
         position: absolute;
-        top: 185px;
+        top: 100px;
         left: 52%;
         width: 37%;
     }
@@ -35,4 +36,17 @@ export const Section = styled.section`
         line-height: 1.5em;
         margin: 30px 0;
     }
+`
+export const ImageRight = styled.img`
+    position: absolute;
+    width: 30%;
+    top: -80px;
+    right: 0;
+    z-index: 1;
+`
+export const ImageLeft = styled.img`
+    position: absolute;
+    left: 0;
+    top: calc(710px - 50%);
+    width: 12%;
 `

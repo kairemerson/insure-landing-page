@@ -8,4 +8,6 @@ export const Wrapper = styled.header`
     justify-content: space-between;
     align-items: baseline;
     padding: 20px 10%;
+    z-index: 2;
+    position: relative;
 `
