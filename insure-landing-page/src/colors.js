@@ -5,5 +5,4 @@ export default {
     veryDarkViolet: '#2b272f',
     darkGrayishViolet: '#837d87',
     veryLightGray: '#fafafa',
-    red: 'red'
 }
