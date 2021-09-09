@@ -10,4 +10,7 @@ export const Wrapper = styled.header`
     padding: 20px 10%;
     z-index: 2;
     position: relative;
+    @media screen and (max-width: 765px){
+        align-items: center;
+    }
 `
